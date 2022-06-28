@@ -1,0 +1,35 @@
+.heaven-modal.log-modal {
+  top: 16px;
+  .log-modal-content {
+    background: #282824;
+    color: #fff;
+    padding: 12px;
+    word-break: break-all;
+    min-height: 200px;
+    max-height: calc(100vh - 100px);
+    overflow: auto;
+    .log-INFO {
+      color: #fff;
+    }
+    .log-ERROR {
+      color: red;
+    }
+    .log-DEBUG {
+      color: #ffec3d;
+    }
+    .log-WARN {
+      color: #ff8400;
+    }
+  }
+  .log-modal-content div,
+  .log-modal-content pre {
+    line-height: 26px;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .log-modal-content div:hover,
+  .log-modal-content pre:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
